@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    background-color: darkgrey;
+}
+
+.main-heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(188, 188, 223);
+    margin: 0px;
+    padding: 8px;
+}
+
+.getUserChoice{
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:rgb(244, 230, 177);
+}
+
+img:hover{
+    margin: 1px;
+    border: 4px solid black;
+    border-radius: 100px;
+    background-color:yellowgreen;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.playRound{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choices{
+    color:forestgreen;
+    margin: 0px;
+    font-size: 25px;
+}
+
+.game{
+    color: blueviolet;
+    font-size: 30px;
+    padding-right: 50px;
+}
+
+span{
+    color:darkcyan;
+    text-decoration-line: underline;
+}
+.finalWinner{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: red;
+    /* background-color: cornflowerblue; */
+    border-radius: px;
+}
+.startAgainButton{
+    
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+    
+ 
