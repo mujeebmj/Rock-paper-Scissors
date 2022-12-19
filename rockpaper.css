@@ -11,6 +11,12 @@ body{
     margin: 0px;
     padding: 8px;
 }
+.challenge{
+    
+    text-align: center;
+    text-decoration: underline;
+
+}
 
 .getUserChoice{
     font-size: 30px;
