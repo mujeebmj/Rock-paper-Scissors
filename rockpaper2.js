@@ -82,35 +82,41 @@ console.log(tie.innerHTML);
 console.log(totalComputerWins.innerHTML);
 console.log(totalPlayerWins.innerHTML);
 
+const button = document.createElement('button')
+button.classList.add('btn')
 function winnerDec (){
 
 if  (totalPlayerWins.innerHTML == 5 && totalComputerWins.innerHTML < 5){
 
     finalWinner.innerHTML = "Congratulations Buddy You Win ! Want to Play Again ?"
-    const button = document.createElement('button')
-    button.classList.add('btn')
     startAgainButton.appendChild(button)
     button.innerHTML = 'Start Again';
-    button.style.borderRadius = '20px';
+    button.style.borderRadius = '40px';
+    button.style.cursor = 'pointer';
+    button.style.color = 'red';
+    button.style.border = '2px solid black'
+    button.style.fontWeight = 'bold'
 
-    
 }
 
 if (totalComputerWins.innerHTML == 5 && totalPlayerWins.innerHTML < 5 ) {
     
     finalWinner.innerHTML = "Oh No__You Loose ! Lets Try One More Time."
-    const button = document.createElement('button')
-    button.classList.add('btn')
-    button.addEventListener('click', console.log("hello"))
     startAgainButton.appendChild(button)
     button.innerHTML = 'Start Again'
     button.style.borderRadius = '40px';
-    
+    button.style.cursor = 'pointer';
+    button.style.color = 'red';
+    button.style.border = '2px solid black'
+    button.style.fontWeight = 'bold'
+
 }
 }
 
 
-
+button.addEventListener("click" , () =>
+  window.location.reload()
+)
 
 
 
