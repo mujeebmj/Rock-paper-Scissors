@@ -84,6 +84,8 @@ console.log(totalPlayerWins.innerHTML);
 
 const button = document.createElement('button')
 button.classList.add('btn')
+
+
 function winnerDec (){
 
 if  (totalPlayerWins.innerHTML == 5 && totalComputerWins.innerHTML < 5){
